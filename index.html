@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>TravelToor | Azerbaijan Travel & Tours</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navigation">
+      <div class="navigation-header">
+        <div class="logo">
+          <a href="#home">Travel<span>Toor</span></a>
+        </div>
+        <button
+          class="menu-button"
+          id="menu-button"
+          type="button"
+          aria-label="Open navigation menu"
+        >
+          <i class="ri-menu-3-line"></i>
+        </button>
+      </div>
+      <ul class="navigation-links" id="navigation-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="navigation-action">
+        <a href="#contact" class="button">Plan Your Trip</a>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <header class="section-container hero-section" id="home">
+      <div class="hero-content">
+        <p class="section-label">Discover Azerbaijan</p>
+        <h1>Discover <span>Azerbaijan</span> Your Way</h1>
+        <p class="section-description">
+          Explore Baku, Gabala, Sheki, Gusar, Lankaran and other beautiful
+          destinations across Azerbaijan. Find simple travel ideas and plan your
+          next trip with TravelToor.
+        </p>
+        <form class="travel-search-form" action="/" method="get">
+          <div class="form-group">
+            <label for="location">Destination</label>
+            <input
+              type="text"
+              id="location"
+              name="location"
+              placeholder="Gabala"
+            />
+          </div>
+          <div class="form-group">
+            <label for="travel-date">Travel Date</label>
+            <input
+              type="text"
+              id="travel-date"
+              name="date"
+              placeholder="15 Sep, Tue"
+            />
+          </div>
+          <div class="form-group">
+            <label for="budget">Budget</label>
+            <input
+              type="text"
+              id="budget"
+              name="budget"
+              placeholder="500 AZN"
+            />
+          </div>
+          <button class="button search-button" type="submit">
+            <i class="ri-search-line"></i> <span>Search</span>
+          </button>
+        </form>
+      </div>
+      <div class="hero-gallery">
+        <img
+          src="assets/images/header-1.jpg"
+          alt="Beautiful travel destination in Azerbaijan"
+        />
+        <img
+          src="assets/images/header-2.jpg"
+          alt="Mountain landscape in Azerbaijan"
+        />
+        <img
+          src="assets/images/header-3.jpg"
+          alt="Azerbaijan travel experience"
+        />
+        <img src="assets/images/bg.png" alt="" class="hero-background" />
+      </div>
+    </header>
+    <!-- About Section -->
+    <section class="section-container about-section" id="about">
+      <div class="about-image">
+        <img
+          src="assets/images/choose.jpg"
+          alt="Travel experience in Azerbaijan"
+        />
+      </div>
+      <div class="about-content">
+        <p class="section-label">Why TravelToor?</p>
+        <h2 class="section-title">
+          Plan Your Next Trip <span>With Ease</span>
+        </h2>
+        <ul class="benefits-list">
+          <li class="benefit-item">
+            <span class="benefit-icon">
+              <i class="ri-price-tag-3-fill"></i>
+            </span>
+            <div class="benefit-content">
+              <h3>Simple Travel Plans</h3>
+              <p>
+                Discover practical travel options with clear information,
+                helping you choose a destination that fits your plans and
+                budget.
+              </p>
+            </div>
+          </li>
+          <li class="benefit-item">
+            <span class="benefit-icon">
+              <i class="ri-calendar-check-fill"></i>
+            </span>
+            <div class="benefit-content">
+              <h3>Flexible Travel Dates</h3>
+              <p>
+                Plan a quick weekend getaway or a longer adventure with travel
+                options designed around your schedule.
+              </p>
+            </div>
+          </li>
+          <li class="benefit-item">
+            <span class="benefit-icon">
+              <i class="ri-map-2-fill"></i>
+            </span>
+            <div class="benefit-content">
+              <h3>Explore More Places</h3>
+              <p>
+                Discover Azerbaijan's cities, mountains, nature and historical
+                locations from one easy-to-use travel platform.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Destinations Section -->
+    <section class="section-container destinations-section" id="destinations">
+      <img src="assets/images/bg.png" alt="" class="destinations-background" />
+      <p class="section-label">Popular Destinations</p>
+      <h2 class="section-title">Explore <span>Azerbaijan</span></h2>
+      <div class="swiper destinations-slider">
+        <div class="swiper-wrapper">
+          <!-- Gabala -->
+          <div class="swiper-slide">
+            <article class="destination-card">
+              <img
+                src="assets/images/popular-1.jpg"
+                alt="Gabala travel destination"
+              />
+              <div class="destination-content">
+                <div class="destination-rating">
+                  <span> <i class="ri-star-fill"></i> </span>
+                  4.8 (34)
+                </div>
+                <h3>Gabala</h3>
+                <p><span>120 AZN</span> Per Person</p>
+                <div class="destination-details">
+                  <div>
+                    <span>
+                      <i class="ri-time-line"></i>
+                    </span>
+                    2 Days
+                  </div>
+                  <div>
+                    <span>
+                      <i class="ri-group-3-fill"></i>
+                    </span>
+                    15+
+                  </div>
+                  <div>
+                    <span>
+                      <i class="ri-map-pin-2-fill"></i>
+                    </span>
+                    Azerbaijan
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- Sheki -->
+          <div class="swiper-slide">
+            <article class="destination-card">
+              <img
+                src="assets/images/popular-2.jpg"
+                alt="Sheki travel destination"
+              />
+              <div class="destination-content">
+                <div class="destination-rating">
+                  <span> <i class="ri-star-fill"></i> </span>
+                  4.9 (55)
+                </div>
+                <h3>Sheki</h3>
+                <p><span>140 AZN</span> Per Person</p>
+                <div class="destination-details">
+                  <div>
+                    <span>
+                      <i class="ri-time-line"></i>
+                    </span>
+                    2 Days
+                  </div>
+                  <div>
+                    <span>
+                      <i class="ri-group-3-fill"></i>
+                    </span>
+                    10+
+                  </div>
+                  <div>
+                    <span>
+                      <i class="ri-map-pin-2-fill"></i>
+                    </span>
+                    Azerbaijan
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- Baku -->
+          <div class="swiper-slide">
+            <article class="destination-card">
+              <img
+                src="assets/images/popular-3.jpg"
+                alt="Baku travel destination"
+              />
+              <div class="destination-content">
+                <div class="destination-rating">
+                  <span> <i class="ri-star-fill"></i> </span>
+                  4.7 (45)
+                </div>
+                <h3>Baku</h3>
+                <p><span>90 AZN</span> Per Person</p>
+                <div class="destination-details">
+                  <div>
+                    <span>
+                      <i class="ri-time-line"></i>
+                    </span>
+                    1 Day
+                  </div>
+                  <div>
+                    <span>
+                      <i class="ri-group-3-fill"></i>
+                    </span>
+                    20+
+                  </div>
+                  <div>
+                    <span>
+                      <i class="ri-map-pin-2-fill"></i>
+                    </span>
+                    Azerbaijan
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- Gusar -->
+          <div class="swiper-slide">
+            <article class="destination-card">
+              <img
+                src="assets/images/popular-4.jpg"
+                alt="Gusar travel destination"
+              />
+              <div class="destination-content">
+                <div class="destination-rating">
+                  <span> <i class="ri-star-fill"></i> </span>
+                  4.9 (25)
+                </div>
+                <h3>Gusar</h3>
+                <p><span>160 AZN</span> Per Person</p>
+                <div class="destination-details">
+                  <div>
+                    <span>
+                      <i class="ri-time-line"></i>
+                    </span>
+                    3 Days
+                  </div>
+                  <div>
+                    <span>
+                      <i class="ri-group-3-fill"></i>
+                    </span>
+                    10+
+                  </div>
+                  <div>
+                    <span>
+                      <i class="ri-map-pin-2-fill"></i>
+                    </span>
+                    Azerbaijan
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- Lankaran -->
+          <div class="swiper-slide">
+            <article class="destination-card">
+              <img
+                src="assets/images/popular-5.jpg"
+                alt="Lankaran travel destination"
+              />
+              <div class="destination-content">
+                <div class="destination-rating">
+                  <span> <i class="ri-star-fill"></i> </span>
+                  4.8 (15)
+                </div>
+                <h3>Lankaran</h3>
+                <p><span>130 AZN</span> Per Person</p>
+                <div class="destination-details">
+                  <div>
+                    <span>
+                      <i class="ri-time-line"></i>
+                    </span>
+                    2 Days
+                  </div>
+                  <div>
+                    <span>
+                      <i class="ri-group-3-fill"></i>
+                    </span>
+                    20+
+                  </div>
+                  <div>
+                    <span>
+                      <i class="ri-map-pin-2-fill"></i>
+                    </span>
+                    Azerbaijan
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Explore Section -->
+    <section class="section-container explore-section">
+      <div class="explore-image">
+        <img src="assets/images/explore.jpg" alt="Explore Azerbaijan" />
+      </div>
+      <div class="explore-content">
+        <p class="section-label">Travel Around Azerbaijan</p>
+        <h2 class="section-title">Find Your Next <span>Adventure</span></h2>
+        <p class="section-description">
+          From the modern streets of Baku to the mountains of Gabala and the
+          historic streets of Sheki, Azerbaijan offers a wide range of places to
+          explore. Start with a simple plan and discover something new.
+        </p>
+        <div class="explore-action">
+          <a href="#destinations" class="button">Explore Destinations</a>
+        </div>
+        <div class="travel-statistics">
+          <div class="statistic-item">
+            <h3>20+</h3>
+            <p>Destinations</p>
+          </div>
+          <div class="statistic-item">
+            <h3>10+</h3>
+            <p>Travel Routes</p>
+          </div>
+          <div class="statistic-item">
+            <h3>300+</h3>
+            <p>Happy Travelers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="section-container testimonials-section">
+      <img src="assets/images/bg.png" alt="" class="testimonials-background" />
+      <p class="section-label">Traveler Reviews</p>
+      <h2 class="section-title">What Travelers <span>Say</span></h2>
+      <article class="testimonial-card active">
+        <img src="assets/images/client-1.jpg" alt="Emma Johnson" />
+        <div class="testimonial-content">
+          <h3>Emma Johnson</h3>
+          <h4>Travel Blogger</h4>
+          <p>
+            Planning my Azerbaijan trip became much easier with TravelToor. I
+            found interesting destinations, clear travel information and simple
+            options for building my itinerary.
+          </p>
+        </div>
+      </article>
+      <article class="testimonial-card">
+        <img src="assets/images/client-2.jpg" alt="Sophia Lee" />
+        <div class="testimonial-content">
+          <h3>Sophia Lee</h3>
+          <h4>Software Engineer</h4>
+          <p>
+            I wanted a short trip outside the city and found several useful
+            destinations on TravelToor. The platform made it easy to compare
+            different travel ideas and choose one that matched my schedule.
+          </p>
+        </div>
+      </article>
+      <article class="testimonial-card">
+        <img src="assets/images/client-3.jpg" alt="Michael Roberts" />
+        <div class="testimonial-content">
+          <h3>Michael Roberts</h3>
+          <h4>Photographer</h4>
+          <p>
+            Azerbaijan has amazing landscapes for photography. TravelToor helped
+            me discover new places and gave me a simple starting point for
+            planning my route.
+          </p>
+        </div>
+      </article>
+      <div class="testimonial-controls">
+        <button
+          class="button testimonial-button"
+          id="previous-testimonial"
+          type="button"
+          aria-label="Previous testimonial"
+        >
+          <i class="ri-arrow-left-line"></i>
+        </button>
+        <button
+          class="button testimonial-button"
+          id="next-testimonial"
+          type="button"
+          aria-label="Next testimonial"
+        >
+          <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+    </section>
+    <!-- Newsletter Section -->
+    <section class="section-container newsletter-section" id="contact">
+      <h2 class="section-title">
+        Get Travel Updates <span>From TravelToor</span>
+      </h2>
+      <p class="section-description">
+        Subscribe to receive new destination ideas, travel updates, travel
+        guides and special offers from TravelToor.
+      </p>
+      <form class="newsletter-form" action="/" method="post">
+        <label for="email" class="visually-hidden"> Email Address </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <button class="button" type="submit">Subscribe</button>
+      </form>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="section-container footer-content">
+        <!-- Brand -->
+        <div class="footer-column">
+          <div class="footer-logo">
+            <a href="#home">TravelToor</a>
+          </div>
+          <p>
+            TravelToor helps you discover Azerbaijan with simple travel ideas,
+            practical destination information and flexible trip planning.
+          </p>
+          <ul class="social-links">
+            <li>
+              <a href="#" aria-label="Facebook">
+                <i class="ri-facebook-fill"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="X">
+                <i class="ri-twitter-x-fill"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Instagram">
+                <i class="ri-instagram-line"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Instagram -->
+        <div class="footer-column">
+          <h3>Travel Moments</h3>
+          <div class="instagram-gallery">
+            <img
+              src="assets/images/instagram-1.jpg"
+              alt="Azerbaijan travel moment"
+            />
+            <img
+              src="assets/images/instagram-2.jpg"
+              alt="Azerbaijan travel moment"
+            />
+            <img
+              src="assets/images/instagram-3.jpg"
+              alt="Azerbaijan travel moment"
+            />
+            <img
+              src="assets/images/instagram-4.jpg"
+              alt="Azerbaijan travel moment"
+            />
+            <img
+              src="assets/images/instagram-5.jpg"
+              alt="Azerbaijan travel moment"
+            />
+            <img
+              src="assets/images/instagram-6.jpg"
+              alt="Azerbaijan travel moment"
+            />
+          </div>
+        </div>
+        <!-- Contact -->
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <ul class="contact-links">
+            <li>
+              <a href="tel:+994501234567">
+                <span> <i class="ri-phone-fill"></i> </span>
+                +994 50 123 45 67
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span> <i class="ri-map-pin-fill"></i> </span>
+                Baku, Azerbaijan
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info@traveltoor.az">
+                <span> <i class="ri-mail-fill"></i> </span>
+                info@traveltoor.az
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2026 TravelToor. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
